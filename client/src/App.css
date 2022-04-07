@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.header{
+  font-size: 6vh;
+  color:rgba(244, 248, 10, 0.76);
+  margin-left: 5vh;
+  text-shadow: 1px 1px  rgb(234, 235, 175);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-marker {
+  background-color:rgb(255, 254, 254);
+  z-index:100
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer {
+  font-size: 4.9vh;
+  color:rgba(244, 248, 10, 0.76);
+  margin-left: 5vh;
+  text-shadow: 1px 2px  rgba(238, 234, 24, 0.493);
+  width: 58% 
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav{
+  position: absolute;
+  top:3%;
+  right: 2.5%;
+  width: 35%;
+  color:rgba(244, 248, 10, 0.89);
+
+  border-style: dotted dashed solid double;
+
 }
 
-.App-link {
-  color: #61dafb;
+.nav-options{
+margin-left: 15%;
+font-size: 4vh;
+cursor: pointer;
+color:rgba(244, 248, 10, 0.76);
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.interface-container{
+  position: absolute;
+  right: 2.5%;
+  top: 10%;
+  color:rgba(244, 248, 10, 0.76);
+  border-style: dotted dashed solid double;
+  height: 86.5%;
+  width: 35%
+   
 }
+
+.map-container{
+margin-top: 1%;
+margin-left: 2%;}
