@@ -3,6 +3,8 @@
   color:rgba(244, 248, 10, 0.76);
   margin-left: 5vh;
   text-shadow: 1px 1px  rgb(234, 235, 175);
+  text-shadow: 1px 1px  rgba(19, 19, 18, 0.568);
+
 }
 
 .home-marker {
@@ -10,12 +12,16 @@
   z-index:100
 }
 
+
+
 .footer {
-  font-size: 4.9vh;
+  font-size: 4vh;
   color:rgba(244, 248, 10, 0.76);
-  margin-left: 5vh;
+  margin-left: 6vh;
   text-shadow: 1px 2px  rgba(238, 234, 24, 0.493);
-  width: 58% 
+  width: 58%;
+  text-shadow: 1px 1px  rgba(19, 19, 18, 0.568);
+
 
 }
 
@@ -25,6 +31,7 @@
   right: 2.5%;
   width: 35%;
   color:rgba(244, 248, 10, 0.89);
+  text-shadow: 1px 1px  rgba(19, 19, 18, 0.568);
 
   border-style: dotted dashed solid double;
 
@@ -35,7 +42,7 @@ margin-left: 15%;
 font-size: 4vh;
 cursor: pointer;
 color:rgba(244, 248, 10, 0.76);
-
+font-weight: bold;
 }
 
 .interface-container{
@@ -52,3 +59,21 @@ color:rgba(244, 248, 10, 0.76);
 .map-container{
 margin-top: 1%;
 margin-left: 2%;}
+
+.strand-marker{
+  cursor: pointer;
+}
+
+.point-card-container{
+  background-color: white;
+  width: 99%;
+  height: fit-content;
+  margin-left: .5%;
+  margin-top: .5%;
+  color: black;
+  cursor: pointer;
+}
+
+.check{
+  cursor: pointer;
+}

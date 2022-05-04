@@ -1,0 +1,2 @@
+class Strand < ApplicationRecord
+end
